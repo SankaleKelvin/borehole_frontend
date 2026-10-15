@@ -65,7 +65,9 @@ const drawer = ref(true)
 const paths = ref([
   { icon: 'mdi-home', text: 'Home', route: '/' },
   { icon: 'mdi-heart', text: 'About Us', route: '/about-us' },
-  { icon: 'mdi-lock', text: 'Login', route: '/login' }
+  { icon: 'mdi-lock', text: 'Login', route: '/login' },
+  { icon: 'mdi-map', text: 'Locations', route: '/locations' },
+  { icon: 'mdi-map', text: 'Plots', route: '/plots' }
 ])
 </script>
 <style scoped>
